@@ -1,5 +1,7 @@
 # Project Overview
-This project contains a Java Maven backend service and a React frontend application, both of which are containerized using Docker. The applications can be run together using Docker Compose for local development or Kubernetes for production deployments.
+This project contains a Java Maven backend service and a React frontend application, both of which are containerized using Docker. The applications can be run together using Docker Compose for local development.
+See backend details in [IncidentManagementSystem](IncidentManagementSystem) README.md
+
 
 ## Folder Structure
 ```plaintext
@@ -14,16 +16,11 @@ project-folder/
 │   ├── package-lock.json
 │   └── src/
 ├── docker-compose.yml
-└── k8s/
-    ├── backend-deployment.yaml
-    ├── frontend-deployment.yaml
-    └── service.yaml
 ```
 
 ## Prerequisites
 - Docker
 - Docker Compose
-- Kubernetes (kubectl and a cluster, e.g., Minikube or a cloud provider)
 
 ## Running Locally with Docker Compose
 
