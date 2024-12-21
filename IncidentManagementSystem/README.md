@@ -165,6 +165,7 @@ mvn test
 ## Improvement ideas
 * 服务器调优
 * 认证授权
+* throttle, load balance
 * 数据库
 * 分布式缓存
 * 分页
