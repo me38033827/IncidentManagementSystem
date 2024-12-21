@@ -18,8 +18,8 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.1.0</version> <!-- Ensure this is a valid Spring Boot version -->
-    <relativePath /> <!-- Points to Spring Boot dependency management -->
+    <version>3.1.0</version>
+    <relativePath />
   </parent>
 
   <dependencies>
@@ -32,7 +32,7 @@
     <dependency>
       <groupId>com.github.ben-manes.caffeine</groupId>
       <artifactId>caffeine</artifactId>
-      <version>3.1.6</version> <!-- Replace with the latest version if needed -->
+      <version>3.1.6</version>
     </dependency>
 
     <!-- Spring Boot Starter Test -->
@@ -57,7 +57,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.26</version> <!-- Or the latest version -->
+      <version>1.18.26</version>
       <scope>provided</scope>
     </dependency>
 </dependencies>
